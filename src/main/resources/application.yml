@@ -1,0 +1,22 @@
+spring:
+ profiles:
+   active: dev
+---   
+ 
+spring:
+  profiles: dev
+ # datasource:
+ #   url: jdbc:oracle:thin:@localhost:1521/xe
+ #   username: system
+ #   password: root
+ #   driver-class-name: oracle.jdbc.driver.OracleDriver
+
+  #jpa:
+  #  database-platform: org.hibernate.dialect.Oracle10gDialect
+  #  show-sql: true
+    #properties:
+    #  hibernate:
+    #    format_sql: true
+    
+google:
+  url: https://maps.googleapis.com/maps/api/geocode  
